@@ -1,0 +1,550 @@
+.page-header {
+	background: #111;
+	
+}
+html {
+	scroll-behavior: smooth;
+	scroll-snap-align: start;
+  }
+  
+.wrapperhead span {
+	position: fixed;
+	top: 250px;
+	color: greenyellow;
+
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #18191f;
+	box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
+	animation: animate 10s linear infinite;
+}
+
+.wrapperhead span:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.6s;
+}
+
+.wrapperhead span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+}
+
+.wrapperhead span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+
+}
+
+.wrapperhead span:nth-child(5) {
+	left: 40%;
+	animation-delay: 1s;
+}
+
+.wrapperhead span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+}
+
+.wrapperhead span:nth-child(7) {
+	left: 60%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(8) {
+	left: 70%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4s;
+}
+
+.wrapperhead span:nth-child(11) {
+	left: 25%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(12) {
+	left: 35%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(13) {
+	left: 15%;
+	animation-delay: 4s;
+}
+
+.wrapperhead span:nth-child(14) {
+	left: 17%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(15) {
+	left: 28%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(16) {
+	left: 45%;
+	animation-delay: 5s;
+}
+
+.wrapperhead span:nth-child(17) {
+	left: 65%;
+	animation-delay: 6s;
+}
+
+.wrapperhead span:nth-child(18) {
+	left: 67%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(19) {
+	left: 72%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(20) {
+	left: 78%;
+	animation-delay: 4s;
+}
+
+.wrapperhead span:nth-child(21) {
+	left: 82%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(22) {
+	left: 88%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(23) {
+	left: 58%;
+	animation-delay: 2s;
+}
+
+.wrapperhead span:nth-child(24) {
+	left: 52%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(25) {
+	left: 35%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(26) {
+	left: 92%;
+	animation-delay: 6s;
+}
+
+.wrapperhead span:nth-child(27) {
+	left: 93%;
+	animation-delay: 7s;
+}
+
+.wrapperhead span:nth-child(28) {
+	left: 86%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(29) {
+	left: 17%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(30) {
+	left: 27%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(31) {
+	left: 24%;
+	animation-delay: 4s;
+}
+
+.wrapperhead span:nth-child(32) {
+	left: 53%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(33) {
+	left: 44%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(34) {
+	left: 49%;
+	animation-delay: 2s;
+}
+
+.wrapperhead span:nth-child(35) {
+	left: 67%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(36) {
+	left: 78%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(37) {
+	left: 92%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(38) {
+	left: 47%;
+	animation-delay: 12s;
+}
+
+.wrapperhead span:nth-child(39) {
+	left: 88%;
+	animation-delay: 5s;
+
+}
+
+.wrapperhead span:nth-child(40) {
+	left: 31%;
+	animation-delay: 3s;
+}
+
+.wrapperhead span:nth-child(41) {
+	left: 21%;
+	animation-delay: 8s;
+
+}
+
+.wrapperhead span:nth-child(42) {
+	left: 19%;
+	animation-delay: 3s;
+}
+
+.wrapperhead span:nth-child(43) {
+	left: 14%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(44) {
+	left: 22%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(45) {
+	left: 71%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(46) {
+	left: 51%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(47) {
+	left: 55%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(48) {
+	left: 92%;
+	animation-delay: 5s;
+}
+
+.wrapperhead span:nth-child(49) {
+	left: 8%;
+	animation-delay: 12s;
+}
+
+.wrapperhead span:nth-child(50) {
+	left: 69%;
+	animation-delay: 13s;
+}
+
+.wrapperhead span:nth-child(51) {
+	left: 15%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(52) {
+	left: 10%;
+	animation-delay: 4s;
+
+}
+
+.wrapperhead span:nth-child(53) {
+	left: 13%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(54) {
+	left: 11%;
+	animation-delay: 15s;
+}
+
+.wrapperhead span:nth-child(55) {
+	left: 27%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(56) {
+	left: 24%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(57) {
+	left: 53%;
+	animation-delay: 20s;
+}
+
+.wrapperhead span:nth-child(58) {
+	left: 44%;
+	animation-delay: 21s;
+
+}
+
+.wrapperhead span:nth-child(59) {
+	left: 49%;
+	animation-delay: 13s;
+}
+
+.wrapperhead span:nth-child(60) {
+	left: 67%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(61) {
+	left: 93%;
+	animation-delay: 9s;
+
+}
+
+.wrapperhead span:nth-child(62) {
+	left: 92%;
+	animation-delay: 1s;
+}
+
+.wrapperhead span:nth-child(63) {
+	left: 91%;
+	animation-delay: 12s;
+}
+
+.wrapperhead span:nth-child(64) {
+	left: 88%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(65) {
+	left: 31%;
+	animation-delay: 8s;
+}
+
+.wrapperhead span:nth-child(66) {
+	left: 21%;
+	animation-delay: 7s;
+
+}
+
+.wrapperhead span:nth-child(67) {
+	left: 19%;
+	animation-delay: 4s;
+}
+
+.wrapperhead span:nth-child(68) {
+	left: 14%;
+	animation-delay: 10s;
+}
+
+.wrapperhead span:nth-child(69) {
+	left: 22%;
+	animation-delay: 6s;
+
+}
+
+.wrapperhead span:nth-child(70) {
+	left: 71%;
+	animation-delay: 2s;
+}
+
+.wrapperhead span:nth-child(71) {
+	left: 51%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(72) {
+	left: 55%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(73) {
+	left: 92%;
+	animation-delay: 6s;
+}
+
+.wrapperhead span:nth-child(74) {
+	left: 66%;
+	animation-delay: 7s;
+}
+
+.wrapperhead span:nth-child(75) {
+	left: 69%;
+	animation-delay: 2s;
+}
+
+.wrapperhead span:nth-child(76) {
+	left: 71%;
+	animation-delay: 9s;
+}
+
+.wrapperhead span:nth-child(77) {
+	left: 91%;
+	animation-delay: 3s;
+
+}
+
+.wrapperhead span:nth-child(78) {
+	left: 41%;
+	animation-delay: 6s;
+}
+
+.wrapperhead span:nth-child(79) {
+	left: 11%;
+	animation-delay: 7s;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.content h2 b {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #fff;
+	font-family: montserrat;
+	font-size: 80px;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	80% {
+		opacity: .7;
+	}
+
+	100% {
+		transform: translateY(-800px);
+		opacity: 0;
+	}
+}
+
+@media (max-width: 425px) {
+	.wrapperhead span{
+		display: none;
+	}
+	.sfengineer{
+		font-size: 18px !important;
+	}
+	
+}
+
+.name h3 {
+
+	background-image: url('../Image/name.jpg');
+	-webkit-text-fill-color: transparent;
+    background-position: 20% 60%;
+ 	font-size: 25px;
+	font-weight: 900;
+	-webkit-background-clip: text;
+    -webkit-background-size: cover;
+     background-size: cover;
+	 background-repeat: repeat;
+	-webkit-text-stroke: 1px #000;
+	white-space: nowrap;
+}
+@keyframes titleanimate{
+
+	from {
+		background-position: center 25%;
+	 }
+	 to{
+		background-position: center 70%;
+	 }
+	
+
+}
+.sfengineer {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	background: #262626;
+	background-image: linear-gradient(to right, #262626, white, #262626);
+	background-size: 150% 100%;
+	/* Adjusted background size */
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 40px;
+	line-height: 100px;
+	font-family: bignoodletitling;
+	animation: textanimate 3s infinite;
+}
+
+@keyframes textanimate {
+
+	0%,
+	10% {
+		background-position: -150%;
+		/* Adjusted background position */
+	}
+
+	20% {
+		background-position: 0% 0;
+	}
+
+	90% {
+		background-position: 100% 0;
+	}
+
+	100% {
+		background-position: 250%;
+		/* Adjusted background position */
+	}
+}

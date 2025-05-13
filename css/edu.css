@@ -1,0 +1,275 @@
+.experience-education-section {
+
+    background-color: var(--color2);
+    padding: 70px 0;
+}
+
+.experience-education-section .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-education-section .box {
+
+    width: 100%;
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .box {
+
+        width: 48%;
+    }
+}
+
+.experience-education-section .experience {
+
+    text-align: end;
+    margin-top: 60px;
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .experience {
+
+        margin-top: 0;
+    }
+}
+
+.experience-education-section .box .default-title span {
+
+    display: block;
+}
+
+.experience-education-section .swiper {
+
+    margin-top: 90px;
+    height: 300px;
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .swiper {
+
+        height: 420px;
+    }
+}
+
+@media((min-width:420px) and (max-width:1100px)) {
+
+    .experience-education-section .swiper .swiper-slide {
+
+        width: fit-content;
+    }
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .dot {
+
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: rgb(67, 81, 94);
+        ;
+        top: 18%;
+    }
+
+    .experience-education-section .education .dot {
+
+        left: 1px;
+    }
+
+    .experience-education-section .experience .dot {
+
+        right: 1px;
+    }
+}
+
+.experience-education-section .card {
+
+    background-color: rgb(107, 146, 117);
+    width: fit-content;
+    min-width: 250px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: var(--shadow33);
+    text-align: left;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.experience-education-section .card>div {
+
+    margin-bottom: 30px;
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .card {
+
+        flex-direction: row;
+        min-width: unset;
+    }
+
+    .experience-education-section .card>div {
+
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .education .card {
+
+        margin-left: 40px;
+    }
+
+    .experience-education-section .experience .card {
+
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+}
+
+
+.experience-education-section .card .icon i {
+
+    color: #FEC158;
+    ;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.experience-education-section .card .course {
+
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.experience-education-section .card .locale {
+
+    font-size: 16px;
+    color: var(--color7);
+    line-height: 20px;
+    display: block;
+}
+
+.experience-education-section .card .date {
+
+    margin-left: 20px;
+    color: var(--color5);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.experience-education-section .card .date i {
+
+    margin-right: 10px;
+    color: var(--color4);
+}
+
+.experience-education-section .swiper-button-next,
+.experience-education-section .swiper-button-prev {
+
+    transform: scale(0.7);
+    top: 95%;
+    color: var(--color7);
+}
+
+@media(min-width:1100px) {
+
+    .experience-education-section .swiper-button-next,
+    .experience-education-section .swiper-button-prev {
+
+        transform: scale(1);
+        top: unset;
+        opacity: 0.5;
+    }
+
+    .experience-education-section .swiper-button-next {
+
+        top: unset;
+        bottom: -10px;
+        left: 36%;
+        transform: rotate(90deg);
+    }
+
+    .experience-education-section .experience .swiper .swiper-button-next {
+
+        left: unset;
+        right: 36%;
+    }
+
+    .experience-education-section .swiper .swiper-button-prev {
+
+        display: none;
+    }
+}
+
+/* barras laterais */
+@media(min-width:1100px) {
+
+    .experience-education-section .vertical-carousel {
+
+        position: relative;
+    }
+
+    .experience-education-section .education .vertical-carousel::before {
+
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 105%;
+        background-color: #ccd4db;
+        left: 10px;
+        top: -8%;
+        box-shadow: grey;
+    }
+
+    .experience-education-section .experience .vertical-carousel::after {
+
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 104%;
+        background-color: #ccd4db;
+        right: 10px;
+        top: -8%;
+        box-shadow: grey;
+    }
+}
+
+@media(max-width:445px) {
+
+    .experience-education-section .card {
+        width: 100%;
+        height: 220px;
+    }
+
+    .swiper {
+
+        margin-top: 0px !important;
+
+    }
+
+    .experience {
+
+        margin-top: 0px !important;
+    }
+
+    swiper-button-next,
+    .swiper-button-prev {
+        top: 95%;
+    }
+}
